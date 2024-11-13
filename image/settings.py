@@ -113,8 +113,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Media files (uploaded content)
-MEDIA_URL = '/media/'  # Ensure MEDIA_URL is distinct from STATIC_URL
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = '/media/'  # URL to access media files
+MEDIA_ROOT = BASE_DIR / 'media'  # Directory where media files are stored'
 # MEDIA_ROOT = 'F:/media/myimage/'
 
 # Default primary key field type
