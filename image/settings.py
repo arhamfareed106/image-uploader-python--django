@@ -115,6 +115,7 @@ STATIC_URL = '/static/'
 # Media files (uploaded content)
 MEDIA_URL = '/media/'  # Ensure MEDIA_URL is distinct from STATIC_URL
 MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = 'F:/media/myimage/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
